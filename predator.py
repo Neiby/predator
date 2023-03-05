@@ -12,17 +12,17 @@ gray1 = cv2.cvtColor(frame1, cv2.COLOR_BGR2GRAY)
 gray1 = cv2.GaussianBlur(gray1, (5, 5), 0)
 
 # Set the threshold for motion detection
-threshold = 3
+threshold = 2
 
 # Initialize variables for controlling the video playback
-skip_frames = 10  # Number of frames to skip forward or backward
+skip_frames = 30  # Number of frames to skip forward or backward
 paused = False
 
 # Initialize variables for keeping track of motion detection boxes
 motion_boxes = []
-motion_box_duration = 12  # Number of frames to keep the boxes on the screen
-min_box_width = 20  # Minimum width of motion detection boxes
-min_box_height = 20  # Minimum height of motion detection boxes
+motion_box_duration = 25  # Number of frames to keep the boxes on the screen
+min_box_width = 40  # Minimum width of motion detection boxes
+min_box_height = 40  # Minimum height of motion detection boxes
 
 
 while True:
