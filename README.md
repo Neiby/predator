@@ -8,5 +8,8 @@
 ### Keyboard Shortcuts
 
 a: skip back
+
 d: skip forward
+
 space: pause/unpause
+
