@@ -2,7 +2,7 @@
 
 ### USAGE
 
-      `python3 predator.py <video_file_name>`
+      python3 predator.py <video_file_name>
 
 
 ### Keyboard Shortcuts
