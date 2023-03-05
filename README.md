@@ -7,9 +7,9 @@
 
 ### Keyboard Shortcuts
 
-  a: skip back
+      a: skip back
 
-  d: skip forward
+      d: skip forward
 
-  space: pause/unpause
+      space: pause/unpause
 
